@@ -86,7 +86,7 @@ export default {
       this.messages=JSON.parse(records)
       localStorage.removeItem(bot_message_records)
     }
-    window.addEventListener("beforeunload",()=>{
+    window.addEventListener("pagehide",()=>{
       localStorage.setItem(bot_message_records,JSON.stringify(this.messages))
     })
   },
