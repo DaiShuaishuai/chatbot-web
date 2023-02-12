@@ -27,7 +27,7 @@ service.interceptors.request.use(
 // response拦截器
 service.interceptors.response.use(
   (response) => {
-    return response
+    return response.data
   },
   (error) => {
     if (error && error.response) {
