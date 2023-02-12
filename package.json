@@ -12,6 +12,8 @@
   "dependencies": {
     "@quasar/extras": "^1.0.0",
     "core-js": "^3.6.5",
+    "github-markdown-css": "^5.2.0",
+    "marked": "^4.2.12",
     "moment": "^2.29.4",
     "quasar": "^1.0.0"
   },
