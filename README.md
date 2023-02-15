@@ -1,5 +1,5 @@
 # chatbot (chatbot-web)
-
+通过后端对接chatGPT和chatbot-web对接实现AI机器人对话
 chatbot web 
 
 ## 效果展示
